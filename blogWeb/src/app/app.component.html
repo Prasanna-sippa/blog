@@ -1,0 +1,19 @@
+<mat-toolbar color="primary">
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+    <mat-icon>auto_stories
+    </mat-icon>
+  </button>
+  <span style="cursor: pointer;" routerLink="/home-page">My App</span>
+  <span class="example-spacer"></span>
+  <button mat-raised-button color="primary" routerLink="/create-post">Create Post</button>
+  <button mat-raised-button color="primary" routerLink="/view-all">View All Posts</button>
+  <button mat-raised-button color="primary" routerLink="/search-by-name">Search</button>
+
+  <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+    <mat-icon>notifications</mat-icon>
+  </button>
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+    <mat-icon>account_circle</mat-icon>
+  </button>
+</mat-toolbar>
+<router-outlet></router-outlet>
